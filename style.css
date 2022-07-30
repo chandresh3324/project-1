@@ -1,0 +1,125 @@
+*{
+  font-family: 'Orbitron';
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.container{
+height: 100vh;
+}
+body{
+  width: auto;
+    margin: 0;
+  padding: 0;
+
+}
+.navbar{
+  width:100%;
+}
+.navbar-container{
+  padding: 2rem 4rem;
+  display: flex ;
+  justify-content: space-between;
+}
+.navbar-container .list li{
+  display: inline ;
+  margin: 0 15px;
+  cursor:pointer;
+  font-weight: 500;
+}
+.navbar-container .list li::after{
+width: 20px;
+height: 2px;
+background-color: black;
+}
+.button-group >div{
+display: inline;
+}
+
+.button-group .nav-button{
+  margin: 5px 10px;
+}
+
+.hero-container{
+position: relative;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 2rem 4rem;
+
+}
+.square{
+position: absolute;
+left: 100px;
+width: 500px;
+bottom: -100px;
+height: 500px;
+z-index: -1;
+}
+
+.star{
+  position: absolute;
+}
+.globe{
+  position: absolute;
+}
+
+.hero-container>div>img{
+  width: 400px;
+}
+.hero-container-right{
+  padding: 2rem 5rem;
+}
+.hero-heading{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin:2rem 0;
+}
+.hero-description{
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 2rem;
+  color: #252525;
+  text-align: center;
+}
+.button-email{
+  text-align: center;
+}
+.button-wrapper{
+  text-align: center;
+}
+.button-wrapper button{
+display: inline-block;
+margin-top: 50px;
+}
+.button-email,.button-join{
+
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  margin: 0 2rem;
+}
+.button-email{
+  background-color: white;
+  color: #000;
+  border: 2px solid #000;
+
+}
+.button-email{
+  background-color: #000;
+  color: #fff;
+
+}
+.contact-heading{
+  margin-top: 50px;
+  text-align: center;
+
+}
+.icons{
+  margin-top: 20px;
+  text-align: center;
+}
+.icons img{
+  margin: 0 .5rem;
+}
